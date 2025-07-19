@@ -17,7 +17,7 @@ public class DemoExample {
     private static  final  String secretKey="1aa858d6e6f3353e49af9aa575867bcf88d18c1a0acb8b2d1442a8e86fc1f616";
     public static void main(String[] agrs){
 
-        //chian 需要科学上网
+        //China 需要科学上网
         System.setProperty("http.proxyHost", "127.0.0.1");
         System.setProperty("http.proxyPort", "10796");
         System.setProperty("https.proxyHost", "127.0.0.1");
