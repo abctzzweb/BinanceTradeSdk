@@ -41,7 +41,7 @@ public class AccountBalanceStrategy implements BinanceActionStrategy<AccountBala
             jsonMap.put("data",balancesList);
             return JSONObject.toJSONString(jsonMap);
         } catch (Exception e) {
-            logger.error("NewOrderStrategy error:{},{}",e,e.getMessage());
+            logger.error("AccountBalanceStrategy error:{},{}",e,e.getMessage());
         }
         return null;
     }
